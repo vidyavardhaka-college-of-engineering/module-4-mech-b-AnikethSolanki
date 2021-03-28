@@ -8,7 +8,7 @@ void main()
 {
    int arr1[10];
    int i,n, sum = 0;
-   int *pt;
+   int *ptr;
    printf(" Input the number of elements to store in the array (max 10) : ");
    scanf("%d",&n);
    printf(" Input %d number of elements in the array : \n",n);

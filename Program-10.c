@@ -17,9 +17,7 @@ int main()
    printf("The elements you entered are : \n");
    for(i=0;i<n;i++)
       {
-        if(i==n-1)
-        break;
-        else
+      
         printf("%d",i);
 	 //print the array elements
 	  }
