@@ -4,9 +4,9 @@
  //Output: 10 20 30
 #include<stdio.h>  
 struct student  
-{  int marks;//char name[10];
-    int marks;//int id;
-    int marks;  
+{  char name[10];
+   int id;
+   int marks;  
 }s1;  
 int main()  
 {  
