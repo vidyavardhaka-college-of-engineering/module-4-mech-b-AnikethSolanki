@@ -6,12 +6,13 @@
 #include <stdio.h>
 int main()
 {
-   int arr[25], i,n;
+   int arr[25], i,n,*z;
+   z=arr[i];
    printf("Input the number of elements to store in the array :");
    scanf("%d",&n);
    printf("Input elements of the array :\n",n);
    for(i=0;i<n;i++)
-      {
+     {
 	   scanf(" %d",&arr[i]);
 	  }
    printf("The elements you entered are : \n");
