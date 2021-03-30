@@ -18,7 +18,7 @@ int main()
    for(i=0;i<n;i++)
       {
       
-        printf("%d\t",arr[i]);
+        printf("% d ",arr[i]);
 	 //print the array elements
 	  }
 	   return 0;
