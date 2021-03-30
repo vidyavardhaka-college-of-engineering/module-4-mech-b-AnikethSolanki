@@ -7,7 +7,7 @@ int main()
 { 
     struct book 
     { 
-       char name;
+       char name[20];
        int price;//declare name and price
         int pages; 
     }; 

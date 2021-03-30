@@ -17,7 +17,7 @@ void main()
 	  printf(" element - %d : ",i+1);
 	  scanf("%d",&arr1[i]);
 	  } 	
-  pt = arr1; // pt store the base address of array arr1
+  ptr = arr1; // pt store the base address of array arr1
   for (i = 0; i < n; i++) {
      sum=sum+*ptr+i;
       // write the code to calculate sum

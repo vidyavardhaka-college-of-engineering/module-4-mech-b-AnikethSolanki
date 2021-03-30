@@ -17,7 +17,7 @@ int main()
     struct math avg;
     printf("Enter a number1,number2,number3:\n");
     scanf("%f%f%f", &enternum.num1,&enternum.num2,&enternum.num3);
-    avg=(enternum.num1+enternum.num2+enternum.num3)/n; //compute and print the average
-    printf("%d",avg);
+    avg.average=(enternum.num1+enternum.num2+enternum.num3)/3; //compute and print the average
+    printf("%f",avg.average);
     return 0;
 } 
